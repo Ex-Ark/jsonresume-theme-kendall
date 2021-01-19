@@ -46,7 +46,7 @@
           {{#workBool}}
           <!-- WORK EXPERIENCE -->
           <div class="box">
-            <h2><i class= "fas fa-suitcase ico"></i> Work Experience</h2>
+            <h2><i class= "fas fa-suitcase ico"></i> Expérience</h2>
             {{#work}}
               <div class="job clearfix">
                 <div class="row">
@@ -78,7 +78,7 @@
                     <div class="description">
                       {{{summary}}}
                       {{#boolHighlights}}
-                      <div class="highlights">Highlights</div>
+                      <div class="highlights">Missions</div>
                       <ul class="list-group">
                         {{#highlights}}
                         <li class="list-group-item">{{{.}}}</li>
@@ -201,11 +201,11 @@
           {{#educationBool}}
           <!-- EDUCATION -->
           <div class="box">
-            <h2><i class="fas fa-university ico"></i> Education</h2>
+            <h2><i class="fas fa-university ico"></i> Éducation</h2>
             <ul id="education" class="clearfix">
               {{#education}}
               <li>
-                <div class="year pull-left">{{startDateYear}} {{endDateYear}}</div>
+                <div class="year pull-left">{{endDateYear}} {{startDateYear}}</div>
                 <div class="description pull-right">
                   <h3>{{institution}}</h3>
                   <div class="where">{{organization}}</div>
@@ -284,7 +284,7 @@
           {{#languagesBool}}
           <!-- LANGUAGES -->
           <div class="box">
-            <h2><i class="fas fa-language ico"></i> Languages</h2>
+            <h2><i class="fas fa-language ico"></i> Langues</h2>
             <ul class="list-group">
               {{#languages}}
               <li class=" list-group-item">{{language}}<span class="skill badge pull-right">{{fluency}}</span></li>
@@ -295,7 +295,7 @@
           {{#interestsBool}}
           <!-- HOBBIES -->
           <div class="box">
-            <h2><i class="fas fa-heart ico"></i> Interests</h2>
+            <h2><i class="fas fa-heart ico"></i> Intérêts</h2>
             {{#interests}}
             <div class="interests clearfix">
               <div class="item-interests">
